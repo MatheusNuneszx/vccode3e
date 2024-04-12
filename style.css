@@ -19,16 +19,16 @@ body{
     align-items: center;
     max-width: 100%;
     margin: 0 auto;
+}
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
 
-    .titulo-principal{
-        text-align: left;
-        width: 100%;
-        font-size: 32px;
-    } 
 }
 .botao{
     font-family: "Chakra Petch",sans-serif;
-    background-color: var(--botao-inativo);
+    background-color: var(--botão-inativo);
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -36,4 +36,16 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
+    border-bottom: 4px solid var(--botão-ativo);
+    border-left: 2px solid var(--botão-ativo);
+    border-right: 2px solid var(--botão-ativo);
+    border-top: none;
+}
+.botoes{
+    display: block;
+}
+@media screen and (min-width: 768px){
+    .botoes{
+        display:flex;
+    }
 }
