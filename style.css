@@ -4,7 +4,7 @@
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botão-ativo: #3A375E;
-    --botão-inativo: rgba(58,55,94, 0.5);
+    --botão-inativo: rgba(58, 55, 94, 0.3);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 body{
@@ -54,4 +54,8 @@ body{
     .botao:last-child{
         border-radius: 0 40px 0 0;
     }
+}
+.ativo{
+    background-color: var(--botao-ativo);
+    border bottom: 4px solid var(--verde)
 }
